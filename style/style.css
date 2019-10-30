@@ -1,6 +1,7 @@
 body {
   font-family: Poppins, sans-serif;
   color: #4c4e61;
+  background-color: #fafafa;
 }
 
 header {
@@ -33,9 +34,23 @@ header {
   margin-right: 150px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
+  font-size: 50%;
 }
 .container p {
   color: #a3a5ae;
+  font-size: 150%;
+}
+
+.card {
+  border-collapse: separate;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #karma {

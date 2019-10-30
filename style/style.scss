@@ -11,6 +11,7 @@ $neutral-gray-blue:hsl(229, 6%, 66%);
 body{
     font-family: $font-stack;
     color: $neutral-dark-blue;
+    background-color: #fafafa;
 }
 
 header{
@@ -41,9 +42,24 @@ header{
     margin-right: 150px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    font-size: 50%;
     p {
         color: $neutral-gray-blue;
+        font-size: 150%;
     }
+}
+
+.card{
+    
+    border-collapse: separate;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #karma{
