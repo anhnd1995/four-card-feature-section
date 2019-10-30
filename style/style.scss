@@ -1,0 +1,67 @@
+$font-stack: Poppins, sans-serif;
+$font-size: 15px;
+$font-weight: 200, 400, 600;
+$primary-red: hsl(0, 78%, 62%);
+$primary-cyan: hsl(180, 62%, 55%);
+$primary-orange: hsl(34, 97%, 64%);
+$primary-blue: hsl(212, 86%, 64%);
+$neutral-dark-blue:hsl(234, 12%, 34%);
+$neutral-gray-blue:hsl(229, 6%, 66%);
+
+body{
+    font-family: $font-stack;
+    color: $neutral-dark-blue;
+}
+
+header{
+    margin-top: 50px;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 150%;
+}
+
+.desc{
+    color: $neutral-gray-blue;
+    font-size: 40%;
+    margin-top: 10px;
+
+    p{ padding-bottom: 45px;}
+}
+
+.title{
+    text-align: center;
+
+    p{font-size: 95%; margin-bottom: 0px;} 
+}
+
+
+.container{
+    display: grid;
+    margin-left: 150px;
+    margin-right: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    p {
+        color: $neutral-gray-blue;
+    }
+}
+
+#karma{
+    grid-column: 2;
+    grid-row: 3/5;
+}
+
+#supervisor{
+    grid-column: 1;
+    grid-row: 2/4;
+}
+
+#team{
+    grid-column: 2;
+    grid-row: 1/3;
+}
+
+#calculator{
+    grid-column: 3;
+    grid-row: 2/4;
+}

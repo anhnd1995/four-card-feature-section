@@ -3,42 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+ 
 </head>
 <body>
   
-  Reliable, efficient delivery
-  Powered by Technology
+  <header class="title">
+    <p>Reliable, efficient delivery </p>
+    <b>Powered by Technology </b></br>
+      <div class="desc">
+        <p>Our Artificial Intelligence powered tools use millions of project data </br>points 
+        to ensure that your project is successful</p>
+      </div>
+  </header>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+  <div class=container>
+    <div class="card" id="supervisor">
+      <b>Supervisor</b></br>
+      <p>Monitors activity to identify project roadblocks</p>
+    </div>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+    <div class="card" id="team">
+      <b>Team Builder</b></br>
+      <p>Scans our talent network to create the optimal team for your project</p>
+    </div>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+    <div class="card" id="karma">
+        <b>Karma</b></br>
+        <p>Regularly evaluates our talent to ensure quality</p>
+    </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+    <div class="card" id="calculator">
+      <b>Calculator</b></br>
+      <p>Uses data from past projects to provide better delivery estimates</p>
+    </div>
+  </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Andy Nguyen</a>.
     </p>
   </footer>
 </body>
