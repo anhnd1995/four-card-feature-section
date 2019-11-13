@@ -66,8 +66,17 @@ header{
     #category{
         font-weight: bold;
         color: $neutral-dark-blue;
-        font-size: 15px;
+        font-size: 20px;
         padding-left: 25px;
+        margin-bottom: 0px;
+        
+    }
+
+    #detail{
+        color: $neutral-gray-blue;
+        font-size: 13px;
+        padding-left: 25px;
+        margin-top: 5px;
     }
 }
 
