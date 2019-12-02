@@ -34,7 +34,7 @@ header{
 .title{
     text-align: center;
 
-    p{font-size: 85%; margin-bottom: 0px;}
+    p{font-size: 85%; margin-bottom: 0px; font-weight: 100;}
     b{font-size: 90%;} 
 }
 
@@ -44,7 +44,7 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     font-size: 50%;
-    p {
+        p {
         color: $neutral-gray-blue;
         font-size: 150%;
     }
@@ -74,8 +74,9 @@ header{
 
     #detail{
         color: $neutral-gray-blue;
-        font-size: 13px;
+        font-size: 12px;
         padding-left: 25px;
+        padding-right: 25px;
         margin-top: 5px;
     }
 }
@@ -106,4 +107,48 @@ header{
     border-top-color: $primary-blue;
     grid-column: 2;
     grid-row: 4;
+}
+
+img {
+    width: 20%;
+    height: auto;
+    margin-top: 16px;
+    margin-left: 205px;
+}
+
+
+@media only screen and (min-width: 900px) {
+    #karma{
+        border-top-style: solid;
+        border-top-color: $primary-orange;
+        grid-column: 2;
+        grid-row: 3/5;
+    }
+    
+    #supervisor{
+        border-top-style: solid;
+        border-top-color: $primary-cyan;
+        grid-column: 1;
+        grid-row: 2/4;
+    }
+    
+    #team{
+        border-top-style: solid;
+        border-top-color: $primary-red;
+        grid-column: 2;
+        grid-row: 1/3;
+    }
+    
+    #calculator{
+        border-top-style: solid;
+        border-top-color: $primary-blue;
+        grid-column: 3;
+        grid-row: 2/4;
+    }
+
+    .container{
+        width: 900px;
+        height: 420px;
+        margin: auto;
+    }
 }
